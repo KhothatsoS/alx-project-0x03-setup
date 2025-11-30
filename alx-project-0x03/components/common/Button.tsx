@@ -1,3 +1,6 @@
+import React from 'react'
+import { ButtonProps } from '@/interface'
+
 interface ButtonProps {
   buttonLabel: string
   buttonSize?: string
