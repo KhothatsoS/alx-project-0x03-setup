@@ -1,8 +1,8 @@
 import React from "react"   
-import PageRoute from "../components/pages/index"
-import Button from "../components/common/Button"
+import { PageRouteProps } from "@/pages/index"
+import { ButtonProps } from "@/components/common/Button"
 import { ReactNode } from "react"
-import Layout from "../components/layouts/Layout"
+import { LayoutProps } from "@S/components/layouts/Layout"
 
 interface PageRouteProps {
   pageRoute: string
